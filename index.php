@@ -342,8 +342,8 @@ include_once 'submit.php';
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="/var/www/eipmain/webroot/js/scripts.js"></script>
 		<!-- carousel script -->
-		<script src="js/carousel.js"></script>
+		<script src="/var/www/eipmain/webroot/js/carousel.js"></script>
     </body>
 </html>
