@@ -1,3 +1,7 @@
+<?php 
+// Include form submission script 
+include_once 'submit.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
