@@ -17,7 +17,7 @@ include_once 'submit.php';
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/var/www/eipmain/webroot/css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -342,8 +342,8 @@ include_once 'submit.php';
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="/var/www/eipmain/webroot/js/scripts.js"></script>
+        <script src="js/scripts.js"></script>
 		<!-- carousel script -->
-		<script src="/var/www/eipmain/webroot/js/carousel.js"></script>
+		<script src="js/carousel.js"></script>
     </body>
 </html>
