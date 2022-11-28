@@ -29,6 +29,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#thingsimade">things i've made</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#homebrewstuff">homebrew stuff</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#miscstuff">miscellaneous stuff</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">email me</a></li>
 					<li class="nav-item"><img src="/img/caffeine.svg" width="250"></li>
                 </ul>
             </div>
@@ -279,6 +280,56 @@
         </div>
     </div>
 </div>
+                </div>
+            </section>
+<!-- contact -->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <p class="lead mb-5">email me or some shit</p>
+<!-- form "borrowed" from codexworld.com -->
+<!-- Google recaptcha API library -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Contact form fields -->
+<form action="" method="post" class="cnt-form">
+<table>
+    <tr>
+	<td><div class="form-input">
+        <label for="name">Name</label></td>
+        <td><input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required=""></td>
+    </div>
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="email">Email</label></td>
+        <td><input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required=""></td>
+    </div>
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="usersubject">Subject</label></td>
+        <td><input type="text" name="usersubject" placeholder="Enter subject" value="<?php echo !empty($postData['usersubject'])?$postData['usersubject']:''; ?>" required=""></td>
+    </div>
+	</tr>
+	<tr>
+    <td><div class="form-input">
+        <label for="message">Message</label></td>
+        <td><textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea></td>
+    </div>
+	</tr>
+</table>
+<p />
+    <div class="form-input">
+        <!-- Google reCAPTCHA box -->
+        <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
+    </div>
+    <input type="submit" name="submit" class="btn" value="Submit">
+</form>
+<p />
+<!-- Status message -->
+<?php if(!empty($statusMsg)){ ?>
+    <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
+<?php } ?>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
