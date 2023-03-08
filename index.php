@@ -267,14 +267,6 @@ include_once 'submit.php';
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
-                            blep.co, a meme domain
-							<a href="https://blep.co" target="_blank" class="btn btn-primary">go see</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body h-100">
                             hacc.me, a meme domain
 							<a href="https://hacc.me" target="_blank" class="btn btn-primary">go see</a>
                         </div>
