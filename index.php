@@ -131,14 +131,6 @@ include_once 'submit.php';
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
-                            the dead letters club (uses wordpress)
-							<a href="https://deadletters.club" target="_blank" class="btn btn-primary">go see</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body h-100">
                             the eip news channel (uses wordpress)
 							<a href="https://news.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
