@@ -1,0 +1,167 @@
+body {
+  background-color: #949494;
+  color: #ebebeb;
+}
+table {
+  font-size: medium;
+  border-spacing: 7.5px;
+}
+td {
+  color: #ebebeb;
+  padding: 10px;
+  text-align: center;
+  line-height: 125%;
+}
+.container60 {
+  width: 60%;
+  margin: auto;
+}
+.enemies-old-header {
+  background-color: #0a8a0f;
+}
+.items-old-header {
+  background-color: #a06c00;
+}
+.enemies-older-header {
+  background-color: #be01fa;
+}
+.items-older-header {
+  background-color: #006aff;
+}
+.npc-old-header {
+  background-color: #c85200;
+}
+.npc-older-header {
+  background-color: #5F5FFA;
+}
+.enemies-new-header {
+  background-color: #B2602A;
+}
+.items-new-header {
+  background-color: #0f827d;
+}
+.jodi-header {
+  background-color: #00a8ad;
+}
+.pan-header {
+  background-color: #2d76c8;
+}
+.krieg-header {
+  background-color: #be4c87;
+}
+.sammie-header {
+  background-color: #5a7e5f;
+}
+.bonus-header {
+  background-color: #545454;
+}
+.records-header {
+  background-color: #be44a5;
+}
+.enemies-old {
+  background-color: #0a8a0f;
+}
+.items-old {
+  background-color: #a06c00;
+}
+.enemies-older {
+  background-color: #be01fa;
+}
+.items-older {
+  background-color: #006aff;
+}
+.npc-old {
+  background-color: #c85200;
+}
+.npc-older {
+  background-color: #5F5FFA;
+}
+.enemies-new {
+  background-color: #B2602A;
+}
+.items-new {
+  background-color: #0f827d;
+}
+.jodi {
+  background-color: #00a8ad;
+}
+.pan {
+  background-color: #2d76c8;
+}
+.krieg {
+  background-color: #be4c87;
+}
+.sammie {
+  background-color: #5a7e5f;
+}
+.bonus {
+  background-color: #545454;
+}
+.meme {
+  background-color: #786F9B;
+}
+.records {
+  background-color: #be44a5;
+}
+.notes {
+  width: 80%;
+  margin: 0 auto;
+  counter-reset: row-num;
+}
+.notes tr {
+  counter-increment: row-num;
+}
+.notes tr td:first-child::before {
+    content: counter(row-num) ": ";
+}
+.testimonials {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.testimonials tr {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tintro {
+  display: flex;
+  justify-content: center;
+}
+.tintro .middle {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.outro a {
+  color: #000000;
+  font-weight: bold;
+}
+.linkhead {
+  color: #000000;
+  font-weight: bold;
+}
+.aside {
+  font-size: small;
+}
+.milestone {
+  --angle: 0deg;
+  border-spacing: 20px;
+  border: 10px solid;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 2.5s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+  --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
