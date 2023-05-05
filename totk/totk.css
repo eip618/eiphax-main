@@ -40,10 +40,10 @@ td {
 .items-new-header {
   background-color: #0f827d;
 }
-.jodi-header {
+.npc-new-header {
   background-color: #00a8ad;
 }
-.pan-header {
+.mech-header {
   background-color: #2d76c8;
 }
 .krieg-header {
@@ -82,10 +82,10 @@ td {
 .items-new {
   background-color: #0f827d;
 }
-.jodi {
+.npc-new {
   background-color: #00a8ad;
 }
-.pan {
+.mech {
   background-color: #2d76c8;
 }
 .krieg {
@@ -146,7 +146,7 @@ a {
 .aside {
   font-size: small;
 }
-.milestone {
+.super {
   --angle: 0deg;
   border-spacing: 20px;
   border: 10px solid;

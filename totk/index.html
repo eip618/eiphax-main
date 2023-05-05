@@ -42,11 +42,11 @@
 	<td class="enemies-new-header">notes about new enemies are burnt orange. (<span id="enemiesnewcount"><noscript>JS disabled!</noscript></span>)</td>
 	<td class="items-new-header">notes about new items are teal. (<span id="itemsnewcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
-<!-- <tr>
-	<td class="jodi-header">facts from jodi are turquoise. (<span id="jodicount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="pan-header">facts from pan are gunmetal cobalt. (<span id="pancount"><noscript>JS disabled!</noscript></span>)</td>
-</tr>
 <tr>
+	<td class="npc-new-header">notes about new npcs are turquoise. (<span id="npcnewcount"><noscript>JS disabled!</noscript></span>)</td>
+	<td class="mech-header">notes about new mechanics are gunmetal cobalt. (<span id="mechcount"><noscript>JS disabled!</noscript></span>)</td>
+</tr>
+<!-- <tr>
 	<td class="krieg-header">facts from krieg are salmon. (<span id="kriegcount"><noscript>JS disabled!</noscript></span>)</td>
 	<td class="sammie-header">facts from sammie are moss green. (<span id="sammiecount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
@@ -79,6 +79,13 @@
   <tr><td class="npc-old note">hudson is back</td></tr>
   <tr><td class="items-new note">brightbloom seeds cause an illumination plant to grow where they are planted</td></tr>
   <tr><td class="npc-old note">koroks are back (fucks sake)</td></tr>
+  <tr><td class="npc-older note">gibdos are back</td></tr>
+  <tr><td class="npc-new note">the first king of hyrule is introduced</td></tr>
+  <tr><td class="super note">temples are back</td></tr>
+  <tr><td class="mech note">some 'food' items can now affect the environment, eg providing illumination</td></tr>
+  <tr><td class="mech note">some 'food' items like muddle buds can affect enemies, eg blinding them</td></tr>
+  <tr><td class="mech note">environment modifiers have been introduced, eg attack up in hot conditions</td></tr>
+  <tr><td class="mech note">weapon modifiers have been introduced, eg attack up when 1hp</td></tr>
 </table>
 <center>
 <span class="outro">
@@ -97,8 +104,8 @@ document.getElementById("npcoldcount").innerHTML = document.getElementsByClassNa
 document.getElementById("npcoldercount").innerHTML = document.getElementsByClassName("npc-older").length
 document.getElementById("enemiesnewcount").innerHTML = document.getElementsByClassName("enemies-new").length
 document.getElementById("itemsnewcount").innerHTML = document.getElementsByClassName("items-new").length
-document.getElementById("jodicount").innerHTML = document.getElementsByClassName("jodi").length
-document.getElementById("pancount").innerHTML = document.getElementsByClassName("pan").length
+document.getElementById("npcnewcount").innerHTML = document.getElementsByClassName("npc-new").length
+document.getElementById("mechcount").innerHTML = document.getElementsByClassName("mech").length
 document.getElementById("kriegcount").innerHTML = document.getElementsByClassName("krieg").length
 document.getElementById("sammiecount").innerHTML = document.getElementsByClassName("sammie").length
 document.getElementById("recordscount").innerHTML = document.getElementsByClassName("records").length
