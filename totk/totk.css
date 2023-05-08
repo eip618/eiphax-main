@@ -46,7 +46,7 @@ td {
 .mech-header {
   background-color: #2d76c8;
 }
-.krieg-header {
+.mech-old-header {
   background-color: #be4c87;
 }
 .sammie-header {
@@ -88,7 +88,7 @@ td {
 .mech {
   background-color: #2d76c8;
 }
-.krieg {
+.mech-old {
   background-color: #be4c87;
 }
 .sammie {

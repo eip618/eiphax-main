@@ -21,7 +21,7 @@
 <div class="container60"><p><center><h1>welcome to tears of the kingdom notes!</h1>
 <h2>updated frequently, until it becomes irrelevant thanks to a wiki!</h2>
 <h4>like what i do? <a href="https://3ds.hacks.guide/donations" class="linkhead">buy me a coffee</a> and just put "for eip" or something in the description.</h4>
-<p id="top">total number of notes: <span id="notescount"><noscript>you have javascript disabled. you won't be able to see the total fact number.</noscript></span>
+<p id="top">total number of notes: <span id="notescount"><noscript>you have javascript disabled. you won't be able to see the total note number.</noscript></span>
 	<br><a href="#bottom" class="linkhead">jump to bottom</a></p></div>
 <span class="intro">
 <table class="tintro">
@@ -46,11 +46,11 @@
 	<td class="npc-new-header">notes about new npcs are turquoise. (<span id="npcnewcount"><noscript>JS disabled!</noscript></span>)</td>
 	<td class="mech-header">notes about new mechanics are gunmetal cobalt. (<span id="mechcount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
-<!-- <tr>
-	<td class="krieg-header">facts from krieg are salmon. (<span id="kriegcount"><noscript>JS disabled!</noscript></span>)</td>
-	<td class="sammie-header">facts from sammie are moss green. (<span id="sammiecount"><noscript>JS disabled!</noscript></span>)</td>
-</tr>
 <tr>
+	<td class="mech-old-header">notes about returning mechanics are salmon. (<span id="mecholdcount"><noscript>JS disabled!</noscript></span>)</td>
+<!--	<td class="sammie-header">facts from sammie are moss green. (<span id="sammiecount"><noscript>JS disabled!</noscript></span>)</td> -->
+</tr>
+<tr><!--
 	<td class="records-header">facts relating to high scores, world records, longest/oldest/etc are bubblegum pink. (<span id="recordscount"><noscript>JS disabled!</noscript></span>)</td>
 </tr>
 <tr class="middle">
@@ -63,6 +63,7 @@
 <table class="notes">
   <tr><td class="enemies-old note">pebblits are back</td></tr>
   <tr><td class="enemies-old note">taluses are back</td></tr>
+  <tr><td class="enemies-new note">new: battle talus</td></tr>
   <tr><td class="enemies-new note">pebblits and taluses can both spawn in the Depths as corrupted enemies</td></tr>
   <tr><td class="enemies-old note">bokoblins are back</td></tr>
   <tr><td class="enemies-old note">moblins are back</td></tr>
@@ -73,19 +74,34 @@
   <tr><td class="items-new note">puffshrooms are toxic mushrooms</td></tr>
   <tr><td class="items-new note">muddle buds confuse your enemies and make them have a chance to attack their allies</td></tr>
   <tr><td class="items-new note">fire fruit function like red chu jelly, but when cooked can increase your attack in hot environments</td></tr>
+  <tr><td class="items-new note">shock fruit function like yellow chu jelly, but when cooked can increase your attack in storms</td></tr>
+  <tr><td class="items-new note">dazzle fruit can blind your enemies when struck</td></tr>
   <tr><td class="enemies-older note">like-likes are back</td></tr>
   <tr><td class="npc-old note">robbie is back</td></tr>
   <tr><td class="npc-old note">purah is back (and slightly older)</td></tr>
-  <tr><td class="npc-old note">hudson is back</td></tr>
+  <tr><td class="npc-old note">hudson and karson are back</td></tr>
   <tr><td class="items-new note">brightbloom seeds cause an illumination plant to grow where they are planted</td></tr>
   <tr><td class="npc-old note">koroks are back (fucks sake)</td></tr>
+  <tr><td class="npc-old note">hestu is back</td></tr>
   <tr><td class="npc-older note">gibdos are back</td></tr>
   <tr><td class="npc-new note">the first king of hyrule is introduced</td></tr>
+  <tr><td class="npc-new note">his wife is also introduced</td></tr>
   <tr><td class="super note">temples are back</td></tr>
   <tr><td class="mech note">some 'food' items can now affect the environment, eg providing illumination</td></tr>
   <tr><td class="mech note">some 'food' items like muddle buds can affect enemies, eg blinding them</td></tr>
   <tr><td class="mech note">environment modifiers have been introduced, eg attack up in hot conditions</td></tr>
   <tr><td class="mech note">weapon modifiers have been introduced, eg attack up when 1hp</td></tr>
+  <tr><td class="mech-old note">blood moons are back</td></tr>
+  <tr><td class="mech-old note">paragliding is back</td></tr>
+  <tr><td class="mech note">skyview towers replace shiekah towers (and are not in exactly the same locations)</td></tr>
+  <tr><td class="mech-old note">stables are back (and some locations have changed)</td></tr>
+  <tr><td class="mech note">zonai powers replace the sheikah runes (the trailers have showcased some of these, so this isn't exactly a spoiler)</td></tr>
+  <tr><td class="npc-old note">the <i>mother fucking Yiga</i> are back</td></tr>
+  <tr><td class="npc-old note">impa is back</td></tr>
+  <tr><td class="super note">we finally find out who the eighth heroine was</td></tr>
+  <tr><td class="mech note">new: wells lead to caves under named locations such as stables and towns</td></tr>
+  <tr><td class="mech note">new: caves have their own 'biomes' with cave-specific flora and fauna</td></tr>
+  <tr><td class="mech note">new: destructible rocks sometimes drop ores/gems</td></tr>
 </table>
 <center>
 <span class="outro">
@@ -106,7 +122,7 @@ document.getElementById("enemiesnewcount").innerHTML = document.getElementsByCla
 document.getElementById("itemsnewcount").innerHTML = document.getElementsByClassName("items-new").length
 document.getElementById("npcnewcount").innerHTML = document.getElementsByClassName("npc-new").length
 document.getElementById("mechcount").innerHTML = document.getElementsByClassName("mech").length
-document.getElementById("kriegcount").innerHTML = document.getElementsByClassName("krieg").length
+document.getElementById("mecholdcount").innerHTML = document.getElementsByClassName("mech-old").length
 document.getElementById("sammiecount").innerHTML = document.getElementsByClassName("sammie").length
 document.getElementById("recordscount").innerHTML = document.getElementsByClassName("records").length
 </script>
