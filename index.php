@@ -156,8 +156,8 @@ include_once 'submit.php';
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel2" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-			<div class="row">
+				<div class="carousel-item active">
+				<div class="row">
                     <div class="col">
                         <div class="card card-body h-100">
                             bruteforce movable, used in hacking 3ds consoles, written by DeadPhoenix and now maintained by me and crc
@@ -176,6 +176,7 @@ include_once 'submit.php';
 							<a href="https://nx.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
+				</div>
 				</div>
                 <div class="carousel-item">
 				<div class="row">
@@ -196,7 +197,7 @@ include_once 'submit.php';
                             frii gaems world, a bait website for the nintendo homebrew community
 							<a href="https://friigaemsworld.com" target="_blank" class="btn btn-primary">go see</a>
                         </div>
-                </div>
+					</div>
 				</div>
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel2" role="button" data-slide="prev">
