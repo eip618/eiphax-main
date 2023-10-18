@@ -245,6 +245,7 @@ include_once 'submit.php';
                             uwu.tax, a meme domain
 							<a href="https://uwu.tax" target="_blank" class="btn btn-primary">go see</a>
                         </div>
+					</div>
                     <div class="col-md-4">
                         <div class="card card-body h-100">
                             hacc.me, a meme domain
