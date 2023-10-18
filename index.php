@@ -74,19 +74,19 @@ include_once 'submit.php';
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
 				<div class="row">
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             facts that i think are cool (i'm probably most proud of this one)
 							<a href="https://facts.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             life rules
 							<a href="https://rules.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             an http tarpit to waste time for sniffers
 							<br>use 'curl -v https://tarpit.eiphax.tech/wp-login' in a terminal to see what it does
@@ -96,19 +96,19 @@ include_once 'submit.php';
 				</div>
                 <div class="carousel-item">
 				<div class="row">
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             my blog (uses wordpress)
 							<a href="https://blog.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             random shit i picked up about using linux (uses wordpress)
 							<a href="https://bytes.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             an eip-flavoured implementation of the PrivateBin project. it's like pastebin, except encrypted
 							<a href="https://bin.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
@@ -118,13 +118,13 @@ include_once 'submit.php';
 				</div>
                 <div class="carousel-item">
 				<div class="row">
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             eip's meme collection (uses lychee)
 							<a href="https://album.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             the eip news channel (uses wordpress)
 							<a href="https://news.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
@@ -158,19 +158,19 @@ include_once 'submit.php';
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
 			<div class="row">
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             bruteforce movable, used in hacking 3ds consoles, written by DeadPhoenix and now maintained by me and crc
 							<a href="https://bfm.nintendohomebrew.com" target="_blank" class="btn btn-primary">go see</a>
                         </div>
 						</div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             my 3ds database
 							<a href="https://3ds.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             my switch database
 							<a href="https://nx.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
@@ -179,19 +179,19 @@ include_once 'submit.php';
 				</div>
                 <div class="carousel-item">
 				<div class="row">
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             the nintendo homebrew landing website
 							<a href="https://nintendohomebrew.com" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             a master key generator for the 3ds and wiiu
 							<a href="https://mkey.eiphax.tech" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col">
                         <div class="card card-body h-100">
                             frii gaems world, a bait website for the nintendo homebrew community
 							<a href="https://friigaemsworld.com" target="_blank" class="btn btn-primary">go see</a>
@@ -224,13 +224,13 @@ include_once 'submit.php';
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
 			<div class="row">
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             bullshit: a card game
 							<a href="https://eiphax.tech/bullshit" target="_blank" class="btn btn-primary">go see</a>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             shitpost.lol, a meme domain
 							<a href="https://shitpost.lol" target="_blank" class="btn btn-primary">go see</a>
@@ -240,13 +240,13 @@ include_once 'submit.php';
 				</div>
                 <div class="carousel-item">
 				<div class="row">
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             uwu.tax, a meme domain
 							<a href="https://uwu.tax" target="_blank" class="btn btn-primary">go see</a>
                         </div>
 					</div>
-                    <div class="col-md-2">
+                    <div class="col">
                         <div class="card card-body h-100">
                             hacc.me, a meme domain
 							<a href="https://hacc.me" target="_blank" class="btn btn-primary">go see</a>
