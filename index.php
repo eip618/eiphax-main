@@ -72,6 +72,7 @@ include_once 'submit.php';
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
+				<div class="row">
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -96,6 +97,8 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
+				<div class="row">
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -120,6 +123,8 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
+				<div class="row">
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -136,6 +141,7 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
@@ -160,6 +166,7 @@ include_once 'submit.php';
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel2" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
+			<div class="row">
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -184,6 +191,8 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
+				<div class="row">
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -208,6 +217,7 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
@@ -232,6 +242,7 @@ include_once 'submit.php';
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel3" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
+			<div class="row">
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -248,6 +259,8 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
+				<div class="row">
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body h-100">
@@ -264,6 +277,7 @@ include_once 'submit.php';
                         </div>
                     </div>
                 </div>
+				</div>
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel3" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
