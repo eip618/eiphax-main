@@ -41,6 +41,7 @@ include_once 'submit.php';
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#thingsimade">things i've made</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#homebrewstuff">homebrew stuff</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#miscstuff">miscellaneous stuff</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#marketing">eiphax marketing campaign info</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">email me</a></li>
 					<li class="nav-item"><img src="/img/caffeine.svg" width="250"></li>
                 </ul>
@@ -265,6 +266,18 @@ include_once 'submit.php';
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
+</div>
+                </div>
+            </section>
+			<!-- marketing -->
+            <section class="resume-section" id="marketing">
+                <div class="resume-section-content">
+<div class="container text-center my-3">
+    <h2 class="font-weight-light">marketing</h2>
+	<p class="lead mb-5">eiphax synergistic zero-goal marketing report</p>
+    <div class="row mx-auto my-auto">
+		<a href="eiphax_marketing.pdf" download target="_blank">click here</a> to download the eiphax marketing whitepaper! full of incredible amounts of cutting-edge marketing insight.
     </div>
 </div>
                 </div>
