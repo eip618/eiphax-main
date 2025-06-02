@@ -286,6 +286,11 @@ include_once 'submit.php';
             <section class="resume-section" id="contact">
                 <div class="resume-section-content">
                     <p class="lead mb-5">email me or some shit</p>
+<?php if(!empty($statusMsg)){ ?>
+    <div class="status-msg <?php echo $status; ?>" style="text-align: center; margin: 1em 0;">
+        <?php echo $statusMsg; ?>
+    </div>
+<?php } ?>
 <!-- form "borrowed" from codexworld.com -->
 <!-- Google recaptcha API library -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
