@@ -1,6 +1,12 @@
 <?php 
-// Include form submission script 
-include_once 'submit.php'; 
+$formConfig = [
+  'toEmail'   => 'eip@eiphax.tech',
+  'fromName'  => 'main form contact',
+  'formEmail' => 'form@eiphax.tech',
+  'subject'   => 'New submission from EIPHAX MAIN FORM',
+];
+
+require '/var/www/eipmain/lib/submit.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
