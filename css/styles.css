@@ -11541,3 +11541,21 @@ section.resume-section .resume-section-content {
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
+ form.form label {
+  display: grid !important;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  align-items: center;
+  margin: 0 0 12px 0;
+}
+
+form.form label input,
+form.form label textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form.form label textarea {
+  align-items: start;
+}
