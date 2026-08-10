@@ -48,6 +48,7 @@ require '/var/www/eipmain/lib/submit.php';
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#homebrewstuff">homebrew stuff</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#miscstuff">miscellaneous stuff</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#marketing">eiphax marketing campaign info</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sla">enterprise-grade SLA</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">email me</a></li>
 					<li class="nav-item"><img src="/img/caffeine.svg" width="250"></li>
                 </ul>
@@ -288,6 +289,116 @@ require '/var/www/eipmain/lib/submit.php';
 </div>
                 </div>
             </section>
+            <hr class="m-0" />
+            <!-- enterprise service reliability theatre -->
+            <section class="resume-section" id="sla">
+                <div class="resume-section-content">
+                    <div class="container my-3">
+                        <div class="text-center mb-5">
+                            <p class="text-primary text-uppercase font-weight-bold mb-2">eipServices&trade; trust centre</p>
+                            <h2 class="font-weight-light">enterprise service availability commitment</h2>
+                            <p class="lead">hyperscale reliability from a streamlined single-node operating model.</p>
+                            <span class="badge bg-success">OPERATIONAL EXCELLENCE POSTURE: GREEN</span>
+                        </div>
+
+                        <div class="row g-3 text-center mb-5">
+                            <div class="col-md-4">
+                                <div class="card card-body h-100">
+                                    <small class="text-uppercase text-muted">all-inclusive availability objective</small>
+                                    <h3 class="display-5 text-primary mb-1">&gt;99.93%</h3>
+                                    <p class="mb-0">scheduled maintenance included, because exclusions are for cowards</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-body h-100">
+                                    <small class="text-uppercase text-muted">planned interruption envelope</small>
+                                    <h3 class="display-5 text-primary mb-1">&lt;6h</h3>
+                                    <p class="mb-0">aggregate projected downtime per rolling 365-day service epoch</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-body h-100">
+                                    <small class="text-uppercase text-muted">operational availability</small>
+                                    <h3 class="display-5 text-primary mb-1">~100%</h3>
+                                    <p class="mb-0">outside declared platform-modernisation events, probably</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-body mb-4">
+                            <h3>the commitment</h3>
+                            <p>eipServices targets greater than 99.93% gross annual service availability across the complete production service boundary. this objective includes routine state-reconciliation operations and controlled weekly platform-modernisation events, providing a more honest availability posture than providers who quietly remove maintenance from the denominator.</p>
+                            <p class="mb-2"><strong>Projected baseline availability:</strong> 99.9356%</p>
+                            <div class="progress" style="height: 1.5rem;" role="progressbar" aria-label="Projected eipServices availability" aria-valuenow="99.9356" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 99.9356%;">99.9356%</div>
+                            </div>
+                        </div>
+
+                        <div class="row g-3 mb-4">
+                            <div class="col-lg-6">
+                                <div class="card card-body h-100">
+                                    <h3>service-interruption portfolio</h3>
+                                    <table class="table table-sm mb-0">
+                                        <thead>
+                                            <tr><th>resilience activity</th><th>cadence</th><th>impact</th><th>annualised</th></tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>state-consistency refresh</td><td>daily</td><td>~30 seconds</td><td>182.5 minutes</td></tr>
+                                            <tr><td>platform modernisation</td><td>Thursday</td><td>~3 minutes</td><td>156 minutes</td></tr>
+                                            <tr class="font-weight-bold"><td>aggregate envelope</td><td>rolling annual</td><td>&mdash;</td><td>338.5 minutes</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card card-body h-100">
+                                    <h3>competitive positioning</h3>
+                                    <p>eipServices' projected all-inclusive availability exceeds the published single-instance commitments commonly associated with ordinary Amazon EC2 and Google Compute Engine deployments, without requiring multi-zone duplication, a Kubernetes control plane, or anyone saying &ldquo;service mesh&rdquo; in a meeting.</p>
+                                    <p class="mb-0"><small>competitor figures depend on product, architecture, region, contract, exclusions and the willingness to complete a service-credit claim form. this comparison is marketing, not procurement advice.</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mb-4" id="slaFinePrint">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="measurementHeading">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#measurementDetails" aria-expanded="true" aria-controls="measurementDetails">availability measurement framework</button>
+                                </h3>
+                                <div id="measurementDetails" class="accordion-collapse collapse show" aria-labelledby="measurementHeading" data-bs-parent="#slaFinePrint">
+                                    <div class="accordion-body">
+                                        availability is the proportion of observation intervals during which the applicable production endpoint returns a syntactically valid application response within the prevailing latency tolerance. the reporting period is a rolling 365-day window. gross availability includes planned maintenance. operational availability excludes declared maintenance windows. partial interruptions, upstream network weirdness and incidents occurring while nobody is looking may be classified according to the disposition of the operator, evidence and executive discretion.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="maintenanceHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#maintenanceDetails" aria-expanded="false" aria-controls="maintenanceDetails">maintenance and change governance</button>
+                                </h3>
+                                <div id="maintenanceDetails" class="accordion-collapse collapse" aria-labelledby="maintenanceHeading" data-bs-parent="#slaFinePrint">
+                                    <div class="accordion-body">
+                                        daily state-reconciliation events occur at approximately midday AEST and carry a nominal 30-second interruption budget. weekly platform-modernisation events occur on Thursday mornings and carry a nominal three-minute interruption budget. emergency changes may occur whenever something has become sufficiently cooked. all changes are governed by the eipServices Continuous Assurance, Refresh and Accountability Methodology (CARAmel).
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="remedyHeading">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#remedyDetails" aria-expanded="false" aria-controls="remedyDetails">service credits, remedies and exclusions</button>
+                                </h3>
+                                <div id="remedyDetails" class="accordion-collapse collapse" aria-labelledby="remedyHeading" data-bs-parent="#slaFinePrint">
+                                    <div class="accordion-body">
+                                        if availability falls below the stated objective, eligible customers may request a service credit equal to up to 100% of the amount they paid for the affected free service during the affected billing period. at current list pricing, the maximum credit is therefore zero dollars. requests must include timestamps, probe evidence, a concise incident narrative and a drawing of a horse. exclusions include force majeure, hostile traffic, upstream providers, user error, DNS, acts of god, acts of cron and circumstances reasonably described as &ldquo;computer bullshit&rdquo;.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-primary mb-0" role="note">
+                            <strong>forward-looking statement:</strong> 99.9356% is a schedule-derived projection, not an audited historical result or legally binding SLA. &ldquo;effectively 100%&rdquo; means very good, not mathematically perfect. eipServices reserves the right to replace precise terminology with more impressive terminology at any time.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
 <!-- contact -->
             <section class="resume-section" id="contact">
                 <div class="resume-section-content">
